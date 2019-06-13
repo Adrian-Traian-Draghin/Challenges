@@ -1,4 +1,4 @@
-body{
+html, body{
     background-image: url('../img/cover.jpeg');
     background-size: cover;
 }
@@ -7,7 +7,7 @@ body{
     display: table;
     position: absolute;
 }
- .container .centru{
+ .centru{
     color:#333;
     /* padding-top: 300px;
     padding-left: 300px; */
