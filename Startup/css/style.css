@@ -1,7 +1,9 @@
 html, body{
-    background-image: url('../img/cover.jpeg');
-    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/crossroads.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .container{
@@ -15,12 +17,13 @@ html, body{
     flex: 1 100%;
 }
  .centru{
-    color:#333;
+    color:whitesmoke;
     margin-top: 25rem;
     margin-left: 5rem;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
+    font-display: bold;
 }
  .nou>.nou1{
         position: relative;
@@ -33,7 +36,14 @@ html, body{
         -webkit-box-shadow: 11px -5px 10px -1px rgba(0,0,0,0.68); 
         text-align: center;
         border-radius: 15px;
+        font-style: italic;
     }
 
+.nou1:hover{
+    transition:all 2s;
+}
+.nou1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 
-
+}
