@@ -16,6 +16,7 @@ html, body{
 .container>*{
     flex: 1 100%;
 }
+
  .centru{
     color:whitesmoke;
     margin-top: 25rem;
@@ -23,9 +24,9 @@ html, body{
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
-    font-display: bold;
 }
- .nou>.nou1{
+
+.nou1{
         position: relative;
         margin-top: 1rem;
         margin-left: 5rem;
@@ -36,14 +37,15 @@ html, body{
         -webkit-box-shadow: 11px -5px 10px -1px rgba(0,0,0,0.68); 
         text-align: center;
         border-radius: 15px;
+        font:14px Helvetica,Arial,sans-serif;
         font-style: italic;
-    }
+}
 
 .nou1:hover{
     transition:all 2s;
 }
+
 .nou1:hover{
     transform: scale(1.1);
     cursor: pointer;
-
 }
